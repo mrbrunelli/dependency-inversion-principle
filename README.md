@@ -11,7 +11,7 @@ Geralmente utilizamos várias bibliotecas em nossos projetos, até ai tudo bem, 
 ### Exemplos
 Utilizei a biblioteca Axios que faz requisições Http para exemplificar o caso.
 ##### Sem princípios
-> Nosso Controller é responsável por criar instâncias de bibliotecas externas.
+> Nosso Controller é responsável por criar instâncias de bibliotecas externas. Causando alto acoplamento.
 ![](./docs/no-principle.png)
 
 ##### Com princípios
@@ -25,4 +25,5 @@ npm install && npm run dev
 
 ### Créditos
 :link: [#1 SOLID Principles & Design Patterns - Rodrigo Manguinho](https://www.youtube.com/watch?v=LTb89krmBP0&t=698s&ab_channel=Mango)
+
 :link: [O que é SOLID - João Roberto da Paixão](https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530)
